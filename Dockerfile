@@ -1,4 +1,4 @@
-FROM sentry:8.21
+FROM sentry:8.22
 
 COPY google.conf.py .
 RUN pip install https://github.com/getsentry/sentry-auth-google/archive/master.zip \
